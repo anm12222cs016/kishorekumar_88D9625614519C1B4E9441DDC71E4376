@@ -8,10 +8,10 @@ def sort_students(student_list):
     sorted_students = sorted(student_list, key=lambda x: x.cgpa, reverse=True)
     return sorted_students
 students1 = [
-    Student("Siva", "S101", 6.8),
-    Student("Dinesh", "D102", 5.6),
-    Student("Gobi", "G103", 4.4),
-    Student("Bharathi", "B104", 3.3),
+    Student("Kiahor", "K101", 4.6),
+    Student("Nithish", "D102", 2.6),
+    Student("Murugappa", "G103", 4.4),
+    Student("Athi", "B104", 3.3),
 ]
 
 sorted_students1 = sort_students(students1)
