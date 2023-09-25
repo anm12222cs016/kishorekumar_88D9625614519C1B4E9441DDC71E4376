@@ -4,7 +4,7 @@ def linear_search_product(product_list, target_product):
         if product == target_product:
             indices.append(i)
     return indices
-products = ["Apple", "Banana", "Orange", "Grapes", "Apple", "Grapes","Apple"]
+products = ["Apple", "banana", "apple","Orange", "Grapes", "Apple", "Grapes","Apple"]
 target = "Apple"
 result = linear_search_product(products, target)
 if result:
